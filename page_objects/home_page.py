@@ -6,7 +6,7 @@ class HomePage(BaseCase):
     get_started_btn = "#get-started"
     heading_text = "h1"
     site_footer = ".tg-site-footer-section-1"
-    menu_links = "li[id*='menu-item-']"
+    menu_links = "ul[id*='primary-menu'] li[id*='menu-item-']"
     user_name = "#username"
     password = "#password"
     login_btn = "button[name=login]"
